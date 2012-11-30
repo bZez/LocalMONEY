@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>MANATTHAN Pizza Money</TITLE>
+<HTA:APPLICATION ID="mpmoney"
+    BORDER="thin"
+    CAPTION="no"
+    INNERBORDER="no"
+    SCROLL="no" 
+    CAPTION="yes"
+    SCROLLFLAT="no"
+    SHOWINTASKBAR="yes"
+    SINGLEINSTANCE="yes"
+    SYSMENU="yes"
+    NAVIGABLE="yes"
+    WINDOWSTATE="maximized">
+    <SCRIPT type="text/javascript" src="_scpt" language="JavaScript"></SCRIPT>
+   <LINK rel="stylesheet" type="text/css" href="_stl">
+   <SCRIPT language=vbscript>
+Sub Window_Onload
+    window.resizeTo 400,200
+    window.moveTo (screen.width - document.body.clientwidth)/2, (screen.height - document.body.clientheight)/2 
+    Dim objPath
+    objPath = Left(document.location.pathname,InStrRev(document.location.pathname,"\")) 
+End Sub  
+
+Sub WriteTxt_OnClick()
+	Dim fso, txt
+	Const ForReading = 1, ForWriting = 2, ForAppending = 8 
+	Set fso = CreateObject("Scripting.FileSystemObject")
+	Set txt = fso.OpenTextFile(objPath & "datas\_clients", ForAppending, True)
+	
+	txt.WriteLine(VbCr+chr(34)+document.nom.value+chr(34)+","+chr(34)+document.adresse.value+chr(34)+","+document.ville.value)
+     	
+End Sub
+Sub SaveAs_OnClick()
+    Set objFSO = CreateObject("Scripting.FileSystemObject")
+    objFSO.CreateTextFile("test.htm")
+    Set objFile = objFSO.OpenTextFile("test.htm", 2)
+	objFile.WriteLine topTick.InnerHTML
+    objFile.WriteLine midTick.InnerHTML
+    objFile.Close
+End Sub
+</SCRIPT>
+
+    </HEAD>
+<BODY style="height:100%;width:100%;margin:0;padding:0;">
+
+<!-- SPLASH SCREEN -->
+<div id="dialogContainer"><div id="dialogBox">LocalMONEY</div><div id="dialClBtn"></div><div id="dialCtt"><div style="float:left;margin-left:10px;" id="alert"></div><p style="padding:3px 10px 0 0;">ATTENTION !&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br>Configuration automatique ?</p><div id="dialBot"><input type="file" id="file1" style="display:none">
+<a href="#" onclick="$('#file1').click();">Situez LocalMONEY.exe</a></div></div></div>
+<img src="../splash.gif" id="splash">
+<!-- PAGE EMPORTER -->
+<div style="width:100%;height:100%;" id="hTest">
+</div>
+
+<!-- PAGE INDEX -->
+<div style="width:100%;height:100%;text-align:center;">
+<div id="splashCtn">
+<div id="livBtn"></div>
+<div id="splash2"></div>
+<div id="empBtn"></div>
+</div>
+</div>
+<!-- PAGE LIVRAISON -->
+<div style="width:100%;height:100%;" id="livraison">
+<DIV class="topL topE"></DIV>
+<DIV id="topBar"></DIV>
+<div id="pricecontainer"><div id="menuSel">
+<select class="select" id="staSel"><option>Entree</option></select><br/>
+<select class="select" id="pizSel"><option>Pizza</option></select><br/>
+<select class="select" id="boiSel"><option>Boisson</option></select><br/>
+<select class="select" id="desSel"><option>Dessert</option></select><br/>
+<button id="okBtn">VALIDER</button>
+</div>
+<div id="ctn2"><div id="prix1" class="taille"></div><div id="prix2" class="taille"></div><div id="prix3" class="taille"></div></div></div>
+<TEXTAREA id="totalArea">0.00</TEXTAREA>
+<div id="topTick"><div id="topTiTx">THE PIZZA AGENCY<BR/>01.02.03.04.05<br/>666 Hellroads Avenue<br/>54000 Nancy, FRANCE<br/><br/>******************<br/>*&nbsp;&nbsp;&nbsp;LIVRAISON&nbsp;&nbsp;&nbsp;&nbsp;*<br/>******************<br/><div id="recap">CLIENT</div></div></div>
+<div id="midTick">===================
+<div id="midTiTx"></div>=====
+<TEXTAREA id="Display2"></TEXTAREA><br/>
+<span>Soit en franc:</span></br>
+<span>(1 euro = 6.55957 francs)<br/><br/></span>
+<span id="merci">MERCI,</br> ET A BIENTOT !<br/><a href="javascript:void(0)">www.pizzagency.com</a></span>
+<div id="fooTick"></div></div>
+<div class="pager"></div>
+<div class="menusBtn"></div><div class="staBtn"></div><div class="pizBtn"></div>
+<div id="itemList"></div>
+<DIV id="form">
+<div id="clientImg"></div>
+<INPUT id="kwd_search" name="Nom" value="Nom"/>
+<INPUT id="adresse" value="Adresse" name="Adresse"/>
+<INPUT id="ville" value="Ville" name="Ville"/>
+<DIV id="addBtn"><A href="javascript:void(0)" name="SaveAs"></A></DIV>
+<DIV id="CSVTable" class="tableContainer"></DIV><div id="fooCsv"></div>
+</div>
+</div>
+</BODY>
+</HTML>
