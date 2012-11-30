@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<document>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <pizza>
+  <nomp>Alsacienne</nomp>
+  <petit>9.50</petit>
+  <moyen>14.90</moyen>
+  <grand>19.90</grand>
+ </pizza>
+  <menu>
+  <nommenu>MENU SOLO</nommenu>
+  <prix>12.90</prix>
+ </menu>
+  <menu>
+  <nommenu>MENU SUPER</nommenu>
+  <prix>21.90</prix>
+ </menu>
+  <menu>
+  <nommenu>MENU MAXI</nommenu>
+  <prix>32.90</prix>
+ </menu>
+   <dessert>
+  <nomdes>Muffin</nomdes>
+  <prix>2.20</prix>
+ </dessert>
+   <dessert>
+  <nomdes>Brownie</nomdes>
+  <prix>1.90</prix>
+ </dessert>
+   <dessert>
+  <nomdes>Pizza Nutella</nomdes>
+  <prix>6.90</prix>
+ </dessert>
+   <dessert>
+  <nomdes>Glaces</nomdes>
+  <prix>6.90</prix>
+ </dessert>
+   <dessert>
+  <nomdes>Gauffre</nomdes>
+  <prix>3.00</prix>
+ </dessert>
+   <boisson>
+  <nombois>Coca 33cl</nombois>
+  <prix>1.60</prix>
+ </boisson>
+   <boisson>
+  <nombois>Fanta 33cl</nombois>
+  <prix>1.60</prix>
+ </boisson>
+   <boisson>
+  <nombois>Nestea 33cl</nombois>
+  <prix>1.60</prix>
+ </boisson>
+   <boisson>
+  <nombois>Oasis 33cl</nombois>
+  <prix>1.60</prix>
+ </boisson>
+   <boisson>
+  <nombois>Orangina 33cl</nombois>
+  <prix>1.60</prix>
+ </boisson>
+   <boisson>
+  <nombois>Vittel 50cl</nombois>
+  <prix>1.60</prix>
+ </boisson>
+   <boisson>
+  <nombois>S.Pellegrino 50cl</nombois>
+  <prix>1.60</prix>
+ </boisson>
+   <boisson>
+  <nombois>Heinkein 33cl</nombois>
+  <prix>2.30</prix>
+ </boisson>
+   <boisson>
+  <nombois>Coca 1.5L</nombois>
+  <prix>3.00</prix>
+ </boisson>
+   <boisson>
+  <nombois>Fanta 1.5L</nombois>
+  <prix>3.00</prix>
+ </boisson>
+   <boisson>
+  <nombois>Oasis 2L</nombois>
+  <prix>1.60</prix>
+ </boisson>
+   <boisson>
+  <nombois>Vin rose 75cl</nombois>
+  <prix>8.90</prix>
+ </boisson>
+   <boisson>
+  <nombois>Vin rouge</nombois>
+  <prix>8.90</prix>
+ </boisson>
+   <starter>
+  <nomstart>4 Nug. + 3 Wings + O.Rings</nomstart>
+  <prix>9.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Salade Fraicheur</nomstart>
+  <prix>4.90</prix>
+ </starter>
+   <starter>
+  <nomstart>12 Onion Rings</nomstart>
+  <prix>4.90</prix>
+ </starter>
+   <starter>
+  <nomstart>6 Brochettes</nomstart>
+  <prix>4.90</prix>
+ </starter>
+   <starter>
+  <nomstart>8 Nuggets</nomstart>
+  <prix>4.90</prix>
+ </starter>
+   <starter>
+  <nomstart>6 Wings</nomstart>
+  <prix>4.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Potatoes</nomstart>
+  <prix>4.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Bouchees</nomstart>
+  <prix>4.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Cheezy BAAAT</nomstart>
+  <prix>4.90</prix>
+ </starter>
+   <starter>
+  <nomstart>10 Brochettes</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>14 Nuggets</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>10 Wings</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Salade Hawai</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Salade Miami</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Salade Boston</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Salade Denver</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Salade New York</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Salade Cap Code</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <starter>
+  <nomstart>Salade Eldorado</nomstart>
+  <prix>6.90</prix>
+ </starter>
+   <pates>
+  <nompat>4 Fromages</nompat>
+  <prix>5.90</prix>
+ </pates>
+   <pates>
+  <nompat>Poulet Curry</nompat>
+  <prix>5.90</prix>
+ </pates>
+   <pates>
+  <nompat>Carbonara</nompat>
+  <prix>5.90</prix>
+ </pates>
+   <pates>
+  <nompat>Nordique</nompat>
+  <prix>5.90</prix>
+ </pates>
+</document>
